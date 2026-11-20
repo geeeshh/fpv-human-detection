@@ -1,0 +1,11 @@
+[project]
+name = "fpv-human-detection"
+version = "0.1.0"
+authors = [
+    { name = "geeeshh" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "opencv-python>=5.1.0.95",
+    "ultralytics>=8.4.216",
+]
