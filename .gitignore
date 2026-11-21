@@ -9,6 +9,7 @@ __pycache__/
 *.mov
 
 *.pt
+best.pt
 *.onnx
 *.weights
 runs/

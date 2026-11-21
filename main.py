@@ -4,9 +4,9 @@ os.environ["OPENCV_FFMPEG_LOGLEVEL"] = "8"
 import cv2
 from ultralytics import YOLO
 
-model = YOLO("yolov8n.pt")
+model = YOLO("best.pt")
 
-path = "data/test2.mp4"
+path = "data/test.mp4"
 cap = cv2.VideoCapture(path)
 
 total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
